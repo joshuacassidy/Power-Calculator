@@ -4,7 +4,7 @@ public class Power {
         if (power==1) {
             return num;
         } else {
-            return raiseTo(num * num, power - 1);
+            return num * raiseTo(num, power - 1);
         }
     }
 
